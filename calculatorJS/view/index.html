@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>calculator project</title>
+        <link rel="stylesheet" type="text/css"
+        href="/home/kavindu/Desktop/omobio/calculator/assets/css/cal_style.css">
+
+        <style>
+            h1{
+                background-color: black;
+                color:red;
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body style="background-color: black">
+        
+        
+        <div class="box">
+
+            <div class="display">
+                <input type="text" readonly size="18" id="TEXTsCREEN" value="0">
+            </div>
+
+        <div class="keys">
+                <input type="button" value="7" class="button"  onclick="setScreen('7')">
+                <input type="button" value="8" class="button "  onclick="setScreen('8')">
+                <input type="button" value="9" class="button "  onclick="setScreen('9')">
+
+                <input type="button" value="+" class="button "  onclick="setoperator('+')">
+
+                <br>
+
+                <input type="button" value="4" class="button "  onclick="setScreen('4')">
+                <input type="button" value="5" class="button "  onclick="setScreen('5')">
+                <input type="button" value="6" class="button "  onclick="setScreen('6')">
+
+                <input type="button" value="-" class="button black"  onclick="setoperator('-')">
+
+                <br>
+                <input type="button" value="1" class="button "  onclick="setScreen('1')">
+
+                <input type="button" value="2" class="button "  onclick="setScreen('2')">
+                <input type="button" value="3" class="button "  onclick="setScreen('3')">
+                <input type="button" value="*" class="button "  onclick="setoperator('*')">
+                <br>
+
+                <input type="button" value="c" class="button"  onclick="reset()">
+                <input type="button" value="0" class="button "  onclick="setScreen('0')">
+                <input type="button" value="=" class="button "  onclick="getAns()">
+                <input type="button" value="/" class="button "  onclick="setoperator('/')">
+             
+            </div>
+
+
+        </div>
+                <script src="/home/kavindu/Desktop/omobio/calculator/assets/js/calculator.js"></script>
+    </body>
+</html>

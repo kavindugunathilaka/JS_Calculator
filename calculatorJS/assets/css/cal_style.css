@@ -1,0 +1,53 @@
+
+
+input[ type="text"]
+{
+    background-color: rgb(49, 186, 228);
+    height: 35px;
+    width: 220px;
+    left: 2px;
+    top: 2px;
+    color: black;
+    position: relative;
+    text-align: right;
+    font-size: 20px;
+
+}
+
+.box{
+    background-color: rgb(25, 35, 182);
+    height: 300px;
+    width: 250px;
+    border-radius: 15px;
+    position: relative;
+    top: 80px;
+    left: 40%;
+
+
+}
+.display{
+    width: 220px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 40px;
+
+
+}
+.button{
+    position: relative;
+    top: 15px;
+     margin: 2px;
+     width: 40px;
+     height: 30px;
+     border: none;
+     cursor: pointer;
+     border-top: 2px solid transparent;
+     margin-left: 11px;
+     border-radius: 8px;
+}
+.keys{
+  
+    position: relative;
+    top: 15px;
+}
